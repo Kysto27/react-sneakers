@@ -24,11 +24,19 @@ function App() {
           <h1>Все кроссовки</h1>
           <div className="search-block d-flex align-center">
             <img src="/img/search.svg" alt="Search" />
-            <input placeholder="Поиск..."/>
+            <input placeholder="Поиск..." />
           </div>
         </div>
         <div className="d-flex">
           <div className="card p-30">
+            <div className="favorite">
+              <img
+                width={32}
+                height={32}
+                src="/img/heart-unliked.svg"
+                alt="Heart-unliked"
+              />
+            </div>
             <img
               width={133}
               height={112}
